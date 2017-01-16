@@ -15,6 +15,7 @@ import "phoenix_html"
 import React from "react"
 import ReactDom from "react-dom"
 import Hello from "./components/hello"
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 // Import local files
 //
 // Local files can be imported directly using relative
@@ -22,4 +23,10 @@ import Hello from "./components/hello"
 
 // import socket from "./socket"
 
-ReactDom.render(<Hello />, document.getElementById("page"))
+const App = () => (
+  <MuiThemeProvider>
+    <Hello />
+  </MuiThemeProvider>
+)
+
+ReactDom.render(<App />, document.getElementById("page"))
