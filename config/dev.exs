@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :phoenix_brunch_react, PhoenixBrunchReact.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "swarut",
+  password: "",
   database: "phoenix_brunch_react_dev",
   hostname: "localhost",
   pool_size: 10
