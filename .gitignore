@@ -23,3 +23,6 @@ erl_crash.dump
 # variables.
 /config/prod.secret.exs
 npm-debug.log
+*.swp
+.DS_Store
+/.DS_Store
