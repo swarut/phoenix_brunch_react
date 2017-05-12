@@ -1,0 +1,5 @@
+.user-list {
+  width: 80vw;
+  margin: 10px auto;
+  display: flex;
+}

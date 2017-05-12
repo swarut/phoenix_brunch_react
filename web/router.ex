@@ -19,6 +19,12 @@ defmodule PhoenixBrunchReact.Router do
     get "/", PageController, :index
   end
 
+  scope "/api/v1", PhoenixBrunchReact do
+    pipe_through :api
+
+    # get "" 
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", PhoenixBrunchReact do
   #   pipe_through :api
