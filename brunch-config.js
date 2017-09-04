@@ -55,6 +55,9 @@ exports.config = {
       presets: ["es2015", "react"],
       // Do not use ES6 compiler in vendor code
       ignore: [/web\/static\/vendor/]
+    },
+    sass: {
+      mode: 'native'
     }
   },
 
@@ -67,9 +70,9 @@ exports.config = {
   npm: {
     enabled: true,
     whitelist: [
-      "phoenix", 
-      "phoenix_html", 
-      "react", 
+      "phoenix",
+      "phoenix_html",
+      "react",
       "react-dom",
       "react-tap-event-plugin",
       "material-ui"
