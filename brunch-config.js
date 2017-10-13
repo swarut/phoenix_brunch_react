@@ -75,7 +75,8 @@ exports.config = {
       "react",
       "react-dom",
       "react-tap-event-plugin",
-      "material-ui"
+      "material-ui",
+      "redux"
     ]
   }
 };

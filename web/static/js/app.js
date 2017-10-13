@@ -14,9 +14,14 @@
 import "phoenix_html"
 import React from "react"
 import ReactDom from "react-dom"
-// import Hello from "./components/hello"
 import ChatPanel from "./components/chat_panel"
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import { createStore } from 'redux'
+import { ChatApp } from './reducers/chatapp'
+
+console.log('-------', ChatApp)
+let store = createStore(ChatApp)
+
 // Import local files
 //
 // Local files can be imported directly using relative
