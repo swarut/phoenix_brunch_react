@@ -1,4 +1,4 @@
-const todos = (state = [], action) => {
+const ChatApp = (state = [], action) => {
   switch (action.type) {
     case 'ADD_TODO':
       return [
@@ -14,4 +14,7 @@ const todos = (state = [], action) => {
   }
 }
 
-export default todos
+// export default { ChatApp }
+module.exports = {
+  ChatApp
+}

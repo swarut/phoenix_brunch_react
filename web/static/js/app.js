@@ -17,10 +17,10 @@ import ReactDom from "react-dom"
 import ChatPanel from "./components/chat_panel"
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { createStore } from 'redux'
-import { chatApp } from '/reducers'
+import { ChatApp } from './reducers/chatapp'
 
-
-let store = createStore(chatApp)
+console.log('-------', ChatApp)
+let store = createStore(ChatApp)
 
 // Import local files
 //
